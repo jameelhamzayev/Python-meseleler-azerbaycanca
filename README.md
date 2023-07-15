@@ -24,8 +24,8 @@ for i in range(2,n+1):
 print(s)
 ```
 
-2. 
-```
+2.
+ ```
 n = int(input())
 k = 0
 i = 2
@@ -36,7 +36,34 @@ while i <=n//2:
 k= k + 1
 print(k)
 ```
-3) ardı var
-		
+3)Verilmiş ədədin bütün rəqəmlərinin eyni olub olmadığını müəyyən edin.
+1.
+```
+ n = int(input())
+a =0
+b = 0
+s = n%10
+while n>0:
+	k = n %10
+	n =n //10
+	b = b + 1
+	if s == k:
+		a = a + 1
+if a == b:
+		print("yes")
+else:
+		print("no")
+```
+2.
+```
+n=int(input()) 
+n=str(n) 
+İf len(n) == n.count(n[0]):
+     print("yes") 
+else:
+      print("no")
+```
+4) Ardı var
+	
 
 		
