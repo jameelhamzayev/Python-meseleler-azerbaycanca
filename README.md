@@ -63,7 +63,16 @@ n=str(n)
 else:
       print("no")
 ```
-4) Ardı var
+4)Verilmiş tərəfli üçbucağın sahəsini tapan kod yazın. 
+```
+a = int(input())
+b = int(input())
+c = int(input())
+s = (a + b + c) / 2
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+print("The area of the triangle is:", area)
+```
+5) Ardı var
 	
 
 		
