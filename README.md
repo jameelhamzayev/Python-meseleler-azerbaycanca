@@ -154,4 +154,22 @@ for i in range(1,4):
 	else:
 		print("c"*i)
 ```
-13)
+13)Ədədin rəqəmləri sayı 
+```
+n = int(input())
+s = 0
+while n>0:
+	n = n//10
+	s = s + 1
+print(s)
+```
+14) Ədədin rəqəmləri arasında boşluq buraxaraq çap edir.
+```
+n = int(input())
+s = " "
+while n>0:
+	k = n % 10
+	n = n//10
+	s = str(k) + " " + s
+print(s)
+```
