@@ -1,5 +1,5 @@
 ## Məsələlər  
-©Codera academy
+
 1) Verilmiş natural ədədin ikilik say sistemindəki yazılışındalı birlərin (1) sayını tapın.
 
  ```
