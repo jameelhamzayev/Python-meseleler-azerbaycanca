@@ -63,7 +63,7 @@ n=str(n)
 else:
       print("no")
 ```
-4)Verilmiş tərəfli üçbucağın sahəsini tapan kod yazın. 
+4) Verilmiş tərəfli üçbucağın sahəsini tapan kod yazın. 
 ```
 a = int(input())
 b = int(input())
@@ -100,7 +100,7 @@ if n%5==0 and n%7==0:
 else:
     print("F")
 ```
-8)Ədədin rəqəmlərini tərsinə çevirən kodu yazın.
+8) Ədədin rəqəmlərini tərsinə çevirən kodu yazın.
 ```
 n = int(input())
 r = 0
@@ -122,7 +122,7 @@ for i in range(100,200):
     if(s%2==0):
         print(i)
 ```
-10)ardı var
+10) ardı var
 
 	
 
