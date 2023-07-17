@@ -122,8 +122,15 @@ for i in range(100,200):
     if(s%2==0):
         print(i)
 ```
-10) ardı var
+10) Verilmiş a = [4, 3, 9, 7, 16] listində tam ədədin kvadratı olan ədədləri tapın. (Dim 2023)
+```
 
-	
-
-		
+a = [4, 3, 9, 7, 16]
+for i in a:
+	k = i **0.5
+	if int(k)== k: 
+		print(i, "tam ədədin kvadratıdır")
+	else:
+		print(i, "deyil")
+```
+11) Ardı var
