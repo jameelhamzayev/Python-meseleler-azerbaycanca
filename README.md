@@ -70,9 +70,60 @@ b = int(input())
 c = int(input())
 s = (a + b + c) / 2
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-print("The area of the triangle is:", area)
+print(area)
 ```
-5) Ardı var
+5) Ədədin faktorialını tapın. 
+ ```
+def fact(n):
+    if n==1:
+        f=1
+    else:
+        f = n * fact(n-1)
+    return f
+num = int(input())
+s = fact(num)
+print(s)
+```
+6) Ədədin 5'in bölünəni olub olmadığını tapın.
+```
+n = int(input())
+if n%5==0:
+    print("T")
+else:
+    print("F")
+```
+7) Ədədin həm 5'in həm 7'nin bölünəni olub olmadığını tapın
+```
+n = int(input())
+if n%5==0 and n%7==0:
+    print("T" )
+else:
+    print("F")
+```
+8)Ədədin rəqəmlərini tərsinə çevirən kodu yazın.
+```
+n = int(input())
+r = 0
+while n!=0:
+    k = n%10
+    r= (r*10)+k
+    n = n//10
+print(r)
+```
+9) 100 200 arası rəqəmləri cəmi cüt olan ədədləri tapın.
+```
+for i in range(100,200):
+    n = i
+    s = 0
+    while n!=0:
+        d= n%10
+        s = s + d
+        n = n//10
+    if(s%2==0):
+        print(i)
+```
+10)ardı var
+
 	
 
 		
