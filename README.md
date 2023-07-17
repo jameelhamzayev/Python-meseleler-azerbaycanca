@@ -133,4 +133,15 @@ for i in a:
 	else:
 		print(i, "deyil")
 ```
-11) Ardı var
+11) Verilmiş cümlədə a hərflərini b'yə, b hərflərini a'ya çevirən kod yazın. (Dim 2023)
+```
+n = input()
+n = list(n)
+for i in range(0, len(n)):
+		if n[i] == "a":
+				n[i] = "b"
+		elif n[i] == "b":
+			n[i] = "a"
+print("".join(n))
+```
+12) ardı var 
