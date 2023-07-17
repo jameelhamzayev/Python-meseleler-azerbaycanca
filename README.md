@@ -144,4 +144,14 @@ for i in range(0, len(n)):
 			n[i] = "a"
 print("".join(n))
 ```
-12) ardı var 
+12) birinci sətirdə bir "a" ikinci sətirdə iki "b" üçüncü sətirdə üç "c" çap edən proqram yazın
+```
+for i in range(1,4):
+	if i ==1:
+		print("a"*i)
+	elif i == 2:
+		print("b"*i)
+	else:
+		print("c"*i)
+```
+13)
